@@ -1,0 +1,3 @@
+Notes for this chapter: 
+
+File compression can be applied to any file in HDFS, however, for large files, it is more efficient (for MapReduce) to use compression type that enables files to be split. 
