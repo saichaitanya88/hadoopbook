@@ -2,6 +2,10 @@ package codecs;
 
 import java.io.IOException;
 
+import maxtemp.MaxTemperature;
+import maxtemp.MaxTemperatureMapper;
+import maxtemp.MaxTemperatureReducer;
+
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -9,10 +13,6 @@ import org.apache.hadoop.io.compress.GzipCodec;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-
-import ch2.MaxTemperature;
-import ch2.MaxTemperatureMapper;
-import ch2.MaxTemperatureReducer;
 
 public class MaxTemperatureWithCompression {
 	public static void main (String[] args) throws IllegalArgumentException, IOException, ClassNotFoundException, InterruptedException{
