@@ -7,7 +7,6 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.PathFilter;
-import org.apache.log4j.BasicConfigurator;
 
 public class ListStatus {
 	public static void main(String[] args) throws Exception{

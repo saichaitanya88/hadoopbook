@@ -178,5 +178,13 @@
 	<classpathentry kind="lib" path="/home/cloudera/lib/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="/home/cloudera/lib/mrunit-0.9.0-incubating-hadoop2.jar"/>
 	<classpathentry kind="lib" path="/home/cloudera/Desktop/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-1.7.6-cdh5.5.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-ipc-tests.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-mapred.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-mapred-1.7.6-cdh5.5.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-mapred-1.7.6-cdh5.5.0-hadoop2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-mapred-hadoop2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/avro/avro-tools-1.7.6-cdh5.5.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

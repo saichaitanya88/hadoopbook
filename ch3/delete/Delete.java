@@ -2,13 +2,9 @@ package delete;
 
 import java.net.URI;
 
-import listStatus.CustomPathFilter;
-
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.PathFilter;
 
 public class Delete {
 	//hdfs://localhost/user/cloudera/ncdc_sample.txt
